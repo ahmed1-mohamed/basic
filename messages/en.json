@@ -1,0 +1,227 @@
+{
+  "common": {
+    "appName": "Next.js Starter",
+    "dashboard": "Dashboard",
+    "home": "Home",
+    "components": "Components",
+    "settings": "Settings",
+    "profile": "Profile",
+    "logout": "Log out",
+    "search": "Search...",
+    "actions": "Actions",
+    "filter": "Filter",
+    "clear": "Clear",
+    "status": "Status",
+    "date": "Date",
+    "loading": "Loading...",
+    "save": "Save changes",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "create": "Create",
+    "submit": "Submit",
+    "confirm": "Confirm",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "all": "All",
+    "active": "Active",
+    "inactive": "Inactive",
+    "pending": "Pending",
+    "success": "Success",
+    "error": "Error",
+    "warning": "Warning",
+    "info": "Information",
+    "refresh": "Refresh",
+    "language": "Language",
+    "theme": "Theme",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System",
+    "arabic": "العربية",
+    "english": "English",
+    "notifications": "Notifications",
+    "noNotifications": "No new notifications",
+    "rowsPerPage": "Rows per page",
+    "page": "Page",
+    "of": "of",
+    "showing": "Showing",
+    "to": "to",
+    "entries": "entries"
+  },
+  "nav": {
+    "overview": "Overview",
+    "analytics": "Analytics",
+    "users": "Users",
+    "reports": "Reports",
+    "showcase": "UI Showcase",
+    "documentation": "Docs",
+    "github": "GitHub"
+  },
+  "home": {
+    "badge": "Production-Ready Template",
+    "title": "Modern Full-Stack Starter Template",
+    "subtitle": "A robust, scalable frontend architecture built with Next.js 15, TypeScript, Tailwind CSS, shadcn/ui, and bidirectional i18n support.",
+    "getStarted": "Explore Dashboard",
+    "viewComponents": "Component Showcase",
+    "featuresTitle": "Architected for Scale and Developer Velocity",
+    "featuresSubtitle": "Everything you need to jumpstart enterprise applications with clean code principles.",
+    "features": {
+      "i18n": {
+        "title": "Bilingual (AR/EN) & RTL",
+        "description": "Seamless English and Arabic language switching with instant RTL/LTR layout transitions and zero layout shifts."
+      },
+      "theme": {
+        "title": "Light & Dark Theming",
+        "description": "Flicker-free theme switching with next-themes, standard semantic CSS variables, and accessible contrast ratios."
+      },
+      "forms": {
+        "title": "Type-Safe Forms",
+        "description": "Form validation powered by React Hook Form and Zod schemas with localized validation feedback."
+      },
+      "api": {
+        "title": "API & Server State",
+        "description": "Centralized Axios client with interceptors, token management, and TanStack Query for optimal caching."
+      },
+      "ui": {
+        "title": "Modular Design System",
+        "description": "Carefully selected shadcn/ui components customized for consistency, accessibility, and RTL readiness."
+      },
+      "state": {
+        "title": "Predictable State Management",
+        "description": "Lightweight client-side state powered by Zustand with persistent storage support."
+      }
+    }
+  },
+  "dashboard": {
+    "title": "Executive Dashboard",
+    "description": "Real-time key metrics, user activity, and performance indicators.",
+    "addNewUser": "Add New User",
+    "exportData": "Export Report",
+    "stats": {
+      "revenue": {
+        "title": "Total Revenue",
+        "change": "+14.2% from last month"
+      },
+      "users": {
+        "title": "Active Users",
+        "change": "+8.4% new registrations"
+      },
+      "conversions": {
+        "title": "Conversion Rate",
+        "change": "+2.1% improvement"
+      },
+      "performance": {
+        "title": "System Uptime",
+        "change": "Zero downtime recorded"
+      }
+    },
+    "charts": {
+      "revenueTrend": "Revenue & Growth Overview",
+      "revenueSub": "Monthly performance comparison across quarters",
+      "userDistribution": "User Roles Distribution",
+      "userDistributionSub": "Role distribution across the organization"
+    },
+    "table": {
+      "title": "User Management",
+      "description": "Manage registered platform users, roles, and account statuses.",
+      "searchPlaceholder": "Search users by name or email...",
+      "filterRole": "Filter by role",
+      "filterStatus": "Filter by status",
+      "columns": {
+        "name": "User",
+        "role": "Role",
+        "status": "Status",
+        "joined": "Joined Date",
+        "actions": "Actions"
+      },
+      "roles": {
+        "admin": "Admin",
+        "developer": "Developer",
+        "designer": "Designer",
+        "manager": "Manager"
+      },
+      "noResults": "No users found matching your criteria.",
+      "noResultsSub": "Try adjusting your search queries or active filters."
+    }
+  },
+  "userForm": {
+    "createTitle": "Create New User",
+    "createSubtitle": "Fill in the details below to add a member to the workspace.",
+    "editTitle": "Edit User Details",
+    "editSubtitle": "Update member profile, role assignment, and access status.",
+    "fields": {
+      "name": "Full Name",
+      "namePlaceholder": "e.g. Sarah Jenkins",
+      "email": "Email Address",
+      "emailPlaceholder": "sarah@example.com",
+      "role": "Assigned Role",
+      "rolePlaceholder": "Select a role",
+      "status": "Account Status",
+      "bio": "Bio / Notes",
+      "bioPlaceholder": "Brief background or responsibilities...",
+      "receiveEmails": "Receive monthly product updates and announcements",
+      "plan": "Subscription Plan"
+    },
+    "validation": {
+      "nameRequired": "Full name is required (minimum 3 characters).",
+      "invalidEmail": "Please provide a valid email address.",
+      "roleRequired": "Please select a valid role.",
+      "statusRequired": "Please select an account status."
+    },
+    "notifications": {
+      "createSuccess": "User has been created successfully.",
+      "updateSuccess": "User details have been updated successfully.",
+      "deleteSuccess": "User was removed from the system."
+    }
+  },
+  "showcase": {
+    "title": "UI Component Design System",
+    "description": "Interactive showcase of our accessible, responsive shadcn/ui components in both LTR and RTL orientations.",
+    "buttons": "Buttons & Variants",
+    "inputs": "Form Controls & Inputs",
+    "feedback": "Feedback, Dialogs & Modals",
+    "navigation": "Navigation & Breadcrumbs",
+    "states": "Empty & Error States",
+    "openDialog": "Open Example Modal",
+    "dialogTitle": "Confirm Workspace Deletion",
+    "dialogDesc": "This action cannot be undone. All project data will be permanently removed.",
+    "dialogConfirm": "Proceed",
+    "triggerToast": "Trigger Success Toast",
+    "toastMessage": "Operation completed successfully!",
+    "tabs": {
+      "overview": "Overview",
+      "analytics": "Analytics",
+      "reports": "Reports",
+      "notifications": "Notifications"
+    }
+  },
+  "emptyState": {
+    "title": "No Records Found",
+    "description": "There is no data to display right now. Start by adding a new item.",
+    "action": "Create Record"
+  },
+  "errorState": {
+    "title": "Something Went Wrong",
+    "description": "An unexpected error occurred while fetching data. Please try again.",
+    "retry": "Try Again"
+  },
+  "notFound": {
+    "title": "404 - Page Not Found",
+    "description": "The page you are looking for does not exist or has been moved.",
+    "backHome": "Back to Home"
+  },
+  "errorPage": {
+    "title": "An Application Error Occurred",
+    "description": "We encountered an unexpected issue while rendering this page.",
+    "tryAgain": "Try Again",
+    "backHome": "Return Home"
+  },
+  "footer": {
+    "tagline": "Built with modern standards for scalable enterprise frontends.",
+    "rights": "All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  }
+}
